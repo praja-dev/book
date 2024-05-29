@@ -1,28 +1,19 @@
-# **Praja**
+# Praja
 
-Praja - software for citizen-powered governance!
+Praja - software for people-powered governance!
 
-## **Concepts**
+## People & Organizations
 
-A **citizen** is a person who is a member of a political unit such as a nation-state.
+A **person** can team-up with other people to form an **organization**. The same person can be a member of multiple organizations.
 
-An **organization** is a grouping of citizens.
+An organization has a **purpose**. Members of the organization carry out **tasks** in the service of that purpose.
 
-- A citizen can be a member of one or more organizations.
-- An organization can be as small as two members or as large as the whole population of a nation-state. 
-- Organizations may, optionally, participate in parent-child relationships.
-- An organization can have at most one **parent organization** and any number of **sub-organizations**.
+Organizations may, optionally, participate in parent-child relationships. An organization can have at most one **parent organization** and any number of **sub-organizations**.
 
-A **responsibility** is a specific *class of work* that an organization is responsible for performing and accountable for completing.
+An organization may be as small as just two people or as large as all the people in a nation-state.
 
-A **task** is a specific *work item* that needs to be completed by one or more organization members as part of fulfilling some responsibility of their organization.
+## `P.ORGS` (Praja Organizations)
 
-## **Parts**
+A Web app for managing member records and public facing work in Government Organizations and NGOs.
 
-### **`praja-org`**
-
-A web application for managing an organization's responsibilities and members.
-
-### **`praja-core`**
-
-A web application that collects information published by multiple praja-org instances and exposes it to all citizens.
+`P.ORGS` is currently in development. Once the first client is live, full source code will be made available under MIT License at [praja-dev/porgs](https://github.com/praja-dev/porgs)
